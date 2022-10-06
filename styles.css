@@ -1,1 +1,56 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("background image.png");
+}
+
+h1 {
+    text-align: left;
+    font-size: 48px;
+    display: inline-block
+}
+
+h2, p { 
+    margin: 0px
+}
+
+img { 
+    float: left;
+}
+
+nav {
+    text-align: right;
+    display: inline-block
+}
+
+footer {
+    background-color: green;
+    text-align: center;
+    border-top-style: groove;
+    border-top: 4px groove black;
+}
+
+.container {
+    width: 75%;
+    height: 100%;
+    background-color: #ccc;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#aboutme {
+    background-color: white;
+    height: 100% 
+}
+
+#connect {
+    background-color: white;
+    text-align: center;
+    backgr
+}
+
+header {
+    background-color: rgb(3, 153, 23);
+}
 
